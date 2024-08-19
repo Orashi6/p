@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: greenyellow;
+}
+
+h1 {
+    /* Rectangle 3 */
+    position: absolute;
+    width: 636px;
+    height: 116px;
+    left: 381px;
+    right: 423px;
+    top: 22px;
+    bottom: 886px;
+    background: rgb(49, 19, 19);
+    /* Margin vs Padding */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: justify;
+    /* Margin vs Padding */
+    position: absolute;
+    width: 591px;
+    height: 69px;
+    left: 409px;
+    right: 440px;
+    top: 46px;
+    bottom: 909px;
+    text-align: center;
+}
+
+.div {
+    color: black;
+    /* Rectangle 1 */
+    position: absolute;
+    width: 1000px;
+    height: 638px;
+    left: 220px;
+    top: 193px;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 6, 6);
+    background: rgb(0, 0, 0);
+}
+
+.div p {
+    /* Model qismlarining tavsifi: Content - blokning kontenti yani matn va rasmlar joylashadigan qismi. Padding - Content atrofidagi sohani tozalovchi shaffof qism. Border - Content va Padding atrofidagi hoshiya. Margin - Border atrofidagi sohani tozalovchi shaffof qism. */
+    position: absolute;
+    width: 817px;
+    height: 151px;
+    left: 40px;
+    right: 39px;
+    top: 54px;
+    bottom: 54px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.div-2 p {
+    /* Model qismlarining tavsifi: Content - blokning kontenti yani matn va rasmlar joylashadigan qismi. Padding - Content atrofidagi sohani tozalovchi shaffof qism. Border - Content va Padding atrofidagi hoshiya. Margin - Border atrofidagi sohani tozalovchi shaffof qism. */
+    position: absolute;
+    width: 817px;
+    height: 151px;
+    left: 40px;
+    right: 39px;
+    top: 54px;
+    bottom: 54px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.text {
+    gap: 60px;
+    /* Rectangle 2 */
+    position: relative;
+    width: 896px;
+    height: 259px;
+    left: 52px;
+    top: 45px;
+    background: rgb(31, 232, 183);
+}
+
+.text-2 {
+    margin-top: 25px;
+    gap: 60px;
+    /* Rectangle 2 */
+    position: relative;
+    top: 900px;
+    width: 896px;
+    height: 259px;
+    left: 52px;
+    top: 45px;
+    background: rgb(31, 232, 183);
+}
